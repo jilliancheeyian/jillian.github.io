@@ -1,0 +1,251 @@
+/* test */
+.row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Create four equal columns that floats next to eachother */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* The Modal (background) */
+#myModal {
+  margin-top:3%;
+}
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0, 0.6);
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    /* background-color: black; */
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Hide the slides by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Caption text */
+  .caption-container {
+    text-align: center;
+    /* background-color: black; */
+    padding: 4px 16px;
+  
+    color: white;
+  }
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+
+
+/* original */
+#portfolio{
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.grpbox{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box1{
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 400px;
+    background-image: url(001.jpg);
+    background-size: 800px;
+    background-position-x: -180px;
+    justify-content: start;
+    position: relative;
+
+}
+
+.overlay {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: gray;
+}
+
+.box1:hover .overlay{
+    opacity: 1;
+}
+
+.overlayHover{
+    height: 0;
+    width: 100%;
+    bottom:0;
+    left: 0;
+    background-color: rgb(39, 43, 48, 0.9);
+
+}
+
+.box1:hover .overlayHover{
+    height: 100%;
+}
+
+.text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.box2{
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 200px;
+    background-image: url(002.jpg);
+    background-size: 300px;
+    /* background-position-x: -180px; */
+    justify-content: start;
+    position: relative;
+}
+
+.box2:hover .overlay{
+    opacity: 1;
+}
+
+.box2:hover .overlayHover{
+    height: 100%;
+}
+
+.box3{
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 200px;
+    background-image: url(003.jpg);
+    background-size: 300px;
+    /* background-position-x: -180px; */
+    justify-content: start;
+    padding-top: 200px;
+    position: relative;
+}
+
+.box3:hover .overlay{
+    opacity: 1;
+}
+
+.box3:hover .overlayHover{
+    height: 100%;
+}
+
+
+.box4{
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 400px;
+    background-image: url(004.jpg);
+    background-size: 800px;
+    background-position-x: -180px;
+    justify-content: start;
+    position: relative;
+}
+
+.box4:hover .overlay{
+    opacity: 1;
+}
+
+.box4:hover .overlayHover{
+    height: 100%;
+}

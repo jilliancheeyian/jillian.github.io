@@ -1,0 +1,26 @@
+#contact{
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #212326;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.Cbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.material-icons {
+    padding-left: 30px;
+    padding-right: 5px;
+}
+
+.socialMedia {
+    padding-left: 30px;
+}

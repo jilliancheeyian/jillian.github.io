@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<!--link CSS-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+crossorigin="anonymous">
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+crossorigin="anonymous"></script>
+
+<script src="js/lightbox-plus-jquery.min.js"></script>
+
+</head>
+<body>
+
+<!--nav bar -->
+<!-- font link-->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+<section ID="navbar" ></section>
+  
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Profile</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#skill">Skill <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#portfolio">My Quotes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#video">Video</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+ 
+                </div>
+              </nav>
+
+
+              <!-- <script>
+                window.onscroll = function() {myFunction()};
+                
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+                
+                function myFunction() {
+                  if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                  } else {
+                    navbar.classList.remove("sticky");
+                  }
+                }
+                </script> -->
+
+                
+
+<!-- header video banner-->
+<video class="bannervideo" src="image/bannerV.mp4" width="100%" autoplay loop muted></video>
+<div class="content">
+<h1>Hi, Lorem ipsum dolor sit amet.</h1>
+</div>
+
+<!--skill section-->
+<!--link JS-->
+
+<section id="skill">
+  <h1>Skills</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, neque suscipit iure facere impedit fugiat!</p>
+  
+  <div class="main d-inline-flex">
+    <div class="container" style="width:200px">
+      <img src="image/icon-ai-01.png" height="80px"/>
+   
+      <h1 class="software">Adobe Illustrator</h1>
+
+      <div class="line-box1">
+          <div class="lineAi-box2"></div>
+      </div>    
+    </div>
+
+
+
+    <div class="container" style="width:200px">
+        <img src="image/icon-ps-01.png" height="80px"/>
+     
+        <h1 class="software">Adobe Photoshop</h1>
+  
+        <div class="line-box1">
+            <div class="linePs-box2"></div>
+        </div>    
+    </div>
+     
+    <div class="container" style="width:200px">
+        <img src="image/icon-indesign-01.png" height="80px"/>
+      
+        <h1 class="software">Adobe InDesign</h1>
+  
+        <div class="line-box1">
+            <div class="lineId-box2"></div>
+        </div>    
+    </div> 
+
+    <div class="container" style="width:200px">
+        <img src="image/icon-ae-01.png" height="80px"/>
+      
+        <h1 class="software">Adobe After Effect </h1>
+  
+        <div class="line-box1">
+            <div class="lineAe-box2"></div>
+        </div>    
+    </div>
+
+  </div>
+</section>
+
+<!--portfolio section-->
+<!--link CSS-->
+<link rel="stylesheet" type="text/css" href="pfstyle.css">
+
+<section id="portfolio">
+
+  <h1>My Quotes</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, neque suscipit iure facere impedit fugiat!</p>
+
+  <div class="d-inline-flex">
+    <div class="box1" onclick="openSunset();">
+      <div class="overlay overlayHover">
+        <div class="text" >Sunset </div>
+      </div>
+    </div>
+
+    <div class=".d-flex .flex-*-row">
+        <div class="box2" onclick="openStar();">
+            <div class="overlay overlayHover">
+                <div class="text">Star</div>
+              </div>
+        </div>
+        <div class="box3" onclick="openAnimal();">
+            <div class="overlay overlayHover">
+                <div class="text">Animal</div>
+              </div>
+        </div>
+    </div>
+
+    <div class="box4" onclick="openLife();">
+        <div class="overlay overlayHover">
+            <div class="text">Life</div>
+          </div>
+    </div>
+  </div>
+
+  <!-- The Sunset Modal -->
+  <section>
+  <div id="mySunset" class="modal">
+    <h1>Sunset</h1>
+    <p class="par">“There's a sunrise and a sunset every single day, and they're absolutely free. Don't miss so many of them.” </p>
+    <span class="close cursor" onclick="closeSunset()">&times;</span>
+  </div>
+  </section>
+
+<!-- The Star Modal -->
+<section>
+<div id="myStar" class="modal">
+    <h1>Star</h1>
+    <p class="par">“Dwell on the beauty of life. Watch the stars, and see yourself running with them.”  </p>
+    <span class="close cursor" onclick="closeStar()">&times;</span>
+</div>
+</section>
+
+<!-- The Animal Modal -->
+<section>
+    <div id="myAnimal" class="modal">
+        <h1>Animal</h1>
+        <p class="par">"Animals are born who they are, accept it, and that is that. They live with greater peace than people do."</p>
+        <span class="close cursor" onclick="closeAnimal()">&times;</span>
+    </div>
+</section>
+
+<!-- The Life Modal -->
+<section>
+    <div id="myLife" class="modal">
+        <h1>Life</h1>
+        <p class="par">“All life is an experiment. The more experiments you make the better.” </p>
+        <span class="close cursor" onclick="closeLife()">&times;</span>
+    </div>
+</section>
+        
+    
+  
+<!-- Sunset Lightbox script -->
+<script>
+// Open the Modal
+function openSunset() {
+  document.getElementById('mySunset').style.display = "block";
+}
+
+// Close the Modal
+function closeSunset() {
+  document.getElementById('mySunset').style.display = "none";
+}
+
+// <!-- Star Lightbox script -->
+// Open the Modal
+     function openStar() {
+  document.getElementById('myStar').style.display = "block";
+}
+
+// Close the Modal
+function closeStar() {
+  document.getElementById('myStar').style.display = "none";
+}
+
+// <!-- Animal Lightbox script -->
+// Open the Modal
+function openAnimal() {
+  document.getElementById('myAnimal').style.display = "block";
+}
+
+// Close the Modal
+function closeAnimal() {
+  document.getElementById('myAnimal').style.display = "none";
+}
+
+// <!-- Life Lightbox script -->
+// Open the Modal
+function openLife() {
+  document.getElementById('myLife').style.display = "block";
+}
+
+// Close the Modal
+function closeLife() {
+  document.getElementById('myLife').style.display = "none";
+}
+
+    
+</script>
+
+
+</section>
+
+<!--video section-->
+<!--link CSS-->
+<link rel="stylesheet" type="text/css" href="css/Vstyle.css">
+
+<section id="video">
+    <iframe class="youtube" width="660" height="415" src="https://www.youtube.com/embed/wTeRQ16O798" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+    <section class="Vcontent">
+    <h1 class="videoTitle">Video Lorem ipsum dolor.</h1>
+    <p class="videoContent"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet temporibus delectus magnam aperiam id minus neque. Minima, tempora cupiditate qui quisquam omnis est perspiciatis assumenda quaerat pariatur odio quia quam ut ad, harum voluptatum esse aliquid expedita sit sequi! Harum cupiditate saepe omnis odio! Aspernatur est possimus odit voluptas laudantium?</p>
+    </section> 
+
+</section>
+
+<!--contact section-->
+<!--link CSS-->
+<link rel="stylesheet" type="text/css" href="css/Cstyle.css">
+
+<!--link google icon-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<!--link awesome 4-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<section id="contact">
+    <h1>Contact</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, neque suscipit iure facere impedit fugiat!</p>
+
+    <section class="Cbox">
+      <!--For modern browsers-->
+      <i class="material-icons">phone</i>
+      <h6>(+6) 010-231 8676</h6>
+    
+      <!--For modern browsers-->
+      <i class="material-icons">email</i>
+      <h6>chencheeyian02@gmail.com</h6>
+
+   
+    </section>
+
+
+  </section>
+
+</body>
+</html>
